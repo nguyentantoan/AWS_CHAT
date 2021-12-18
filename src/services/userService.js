@@ -1,6 +1,6 @@
 import UserModel from "./../models/userModel";
 import {transErrors} from "./../../lang/vi";
-import bcrypt from "bcrypt-nodejs";
+import bcrypt from "bcrypt";
 
 
 const saltRounds = 7;
@@ -22,7 +22,7 @@ let updatePassword = ( id, dataUpdate ) => {
         }
 
         let salt = bcrypt.genSaltSync(saltRounds);
-        await UserModel.updatePassword(id, bcrypt.hash(dataUpdate.newPassword, salt,null));
+        await UserModel.updatePassword(id, bcrypt.hashSync(dataUpdate.newPassword, salt,null));
         resolve(true);
 
     });

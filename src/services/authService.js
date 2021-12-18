@@ -1,5 +1,5 @@
 import UserModel from "./../models/userModel";
- import bcrypt from "bcrypt-nodejs";
+ import bcrypt from "bcrypt";
 import uuidv4 from "uuid/v4";
 import { transErrors, transSuccess, transMail } from "./../../lang/vi";
 import sendMail from "./../config/mailer";
@@ -22,7 +22,7 @@ let register = (email, gender, password, protocol, host) => {
             gender: gender,
             local: {
                 email: email,
-                password: bcrypt.hash(password, salt,null),
+                password: bcrypt.hashSync(password, salt,null),
                 verifyToken: uuidv4(),// duy nhất
             }
         };
