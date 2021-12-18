@@ -22,10 +22,9 @@ let updatePassword = ( id, dataUpdate ) => {
         }
 
         let salt = bcrypt.genSaltSync(saltRounds);
-        await UserModel.updatePassword(id, bcrypt.hashSync(dataUpdate.newPassword, salt,null));
+        await UserModel.updatePassword(id, bcrypt.hash(dataUpdate.newPassword, salt,null));
         resolve(true);
 
-    
     });
 }
 
