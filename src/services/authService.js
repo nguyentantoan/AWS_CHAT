@@ -22,7 +22,7 @@ let register = (email, gender, password, protocol, host) => {
             gender: gender,
             local: {
                 email: email,
-                password: bcrypt.hashSync(password, salt),
+                password: bcrypt.hashSync(password, salt,null),
                 verifyToken: uuidv4(),// duy nhất
             }
         };
