@@ -41,8 +41,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-node src/server.js",
-    "postinstall": "bower cache clean && bower install"
+    "start": "babel-node src/server.js"
+   
   },
   "author": "",
   "license": "ISC"

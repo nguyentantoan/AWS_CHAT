@@ -29,4 +29,5 @@ export FB_CALLBACK_URL= ******
 # Cấu hình google login app
 export GG_APP_ID=55116632433-b4i6t7n6ferlcga2c7lu46gt8mb8k6ch.apps.googleusercontent.com
 export GG_APP_SECRET=_oWJXLLDQwzeTLRuCH7-LI1-
-export GG_CALLBACK_URL= ec2-34-211-39-216.us-west-2.compute.amazonaws.com:3000/auth/google/callback
+# export GG_CALLBACK_URL= ec2-34-211-39-216.us-west-2.compute.amazonaws.com:3000/auth/google/callback
+export GG_CALLBACK_URL= ******
