@@ -23,7 +23,8 @@
 # Cấu hình facebook login app
 export FB_APP_ID=221991089978179
 export FB_APP_SECRET=8500546e684bc405cd9381bf3ca6dd93
-export FB_CALLBACK_URL= ec2-34-211-39-216.us-west-2.compute.amazonaws.com:3000/auth/facebook/callback
+# export FB_CALLBACK_URL= ec2-34-211-39-216.us-west-2.compute.amazonaws.com:3000/auth/facebook/callback
+export FB_CALLBACK_URL= ******
 
 # Cấu hình google login app
 export GG_APP_ID=55116632433-b4i6t7n6ferlcga2c7lu46gt8mb8k6ch.apps.googleusercontent.com
