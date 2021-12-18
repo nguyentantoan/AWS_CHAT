@@ -1,0 +1,49 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.2",
+    "bower": "^1.8.13",
+    "buffer": "^6.0.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^10.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.17.1",
+    "express-ejs-extend": "0.0.1",
+    "express-session": "^1.15.6",
+    "express-validator": "^6.13.0",
+    "fs-extra": "^7.0.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.1",
+    "multer": "^1.4.1",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.13",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "passport.socketio": "^3.7.0",
+    "socket.io": "^2.2.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "pem": "^1.13.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node src/server.js",
+    "postinstall": "bower cache clean && bower install"
+  },
+  "author": "",
+  "license": "ISC"
+}
