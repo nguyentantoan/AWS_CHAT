@@ -55,17 +55,17 @@ configSocketIO(io, cookieParser, session.sessionStore);
 //khoi tao all sockets
 initSockets(io);
 
-// server.listen(process.env.APP_PORT, process.env.APP_HOST, () => {
-//   console.log(
-//     `Example app listening at ${process.env.APP_HOST}:${process.env.APP_PORT}`
-//   );
-// });
-
-server.listen(process.env.PORT,() => {
+server.listen(process.env.APP_PORT, process.env.APP_HOST, () => {
   console.log(
-    `Example app listening at ${process.env.APP_PORT}/`
+    `Example app listening at ${process.env.APP_HOST}:${process.env.APP_PORT}`
   );
 });
+
+// server.listen(process.env.PORT,() => {
+//   console.log(
+//     `Example app listening at ${process.env.APP_PORT}/`
+//   );
+// });
 
 
 // import pem from "pem";
