@@ -1,5 +1,6 @@
-import mongoose from "mongoose";
-import bcrypt from "bcrypt-nodejs";
+// import mongoose from "mongoose";
+// import bcrypt from "bcrypt-nodejs";
+import bcrypt from "bcrypt";
 
 let Schema = mongoose.Schema;
 
