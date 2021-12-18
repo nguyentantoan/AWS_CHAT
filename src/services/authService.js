@@ -1,5 +1,5 @@
 import UserModel from "./../models/userModel";
- import bcrypt from "bcrypt";
+ import bcrypt from "bcryptjs";
 import uuidv4 from "uuid/v4";
 import { transErrors, transSuccess, transMail } from "./../../lang/vi";
 import sendMail from "./../config/mailer";
