@@ -1,5 +1,6 @@
 import express from "express";
 import expressEjsExtend from "express-ejs-extend";
+require('dotenv').config();
 
 //cấu hình viewEngine
 let configViewEngine = (app) => {

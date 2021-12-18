@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 import bluebird from "bluebird"; //thư viện hỗ trợ cho viết Promise 
+require('dotenv').config();
 
 /* Connect to MongoDB*/
 let connectDB = () => {

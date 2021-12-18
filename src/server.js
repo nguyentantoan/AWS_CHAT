@@ -12,7 +12,7 @@ import initSockets from "./sockets/index";
 import passportSocketIo from "passport.socketio";
 import cookieParser from "cookie-parser";
 import configSocketIO from "./config/socketio"
-
+require('dotenv').config();
 
 //khoi tao app
 let app = express();

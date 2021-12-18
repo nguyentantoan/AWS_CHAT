@@ -1,5 +1,6 @@
 import session from "express-session";
 import connectMongo from "connect-mongo";
+require('dotenv').config();
 
 let MongoStore = connectMongo(session);
 
