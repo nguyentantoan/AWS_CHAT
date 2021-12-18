@@ -1,4 +1,4 @@
-import { validationResult } from "express-validator/check";
+import { validationResult } from "express-validator";
 import {message } from "./../services/index";
 import multer from "multer";
 import { app } from "./../config/app";

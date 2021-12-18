@@ -1,4 +1,4 @@
-import { validationResult } from "express-validator/check";
+import { validationResult } from "express-validator";
 import { auth } from "./../services/index";
 import { transSuccess } from "./../../lang/vi";
 

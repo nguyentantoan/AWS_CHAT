@@ -1,6 +1,6 @@
 import {contact} from "./../services/index";
 import { groupChat } from "./../services/index";
-import { validationResult } from "express-validator/check";
+import { validationResult } from "express-validator";
 
 let addNewGroup = async(req, res) => {
     let errorArr = [];

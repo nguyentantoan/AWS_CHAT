@@ -1,4 +1,4 @@
-import {check} from "express-validator/check";
+import {check} from "express-validator";
 import {transValidation} from "../../lang/vi";
 
 // xừ lý validation trước khi tài khoản được đăng kí thành công
