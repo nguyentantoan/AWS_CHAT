@@ -7,7 +7,7 @@
 #     export DB_PASSWORD=""
 
 #Cấu hình cho App
-    export APP_HOST=ec2-34-211-39-216.us-west-2.compute.amazonaws.com
+    export APP_HOST=ec2-34-211-120-199.us-west-2.compute.amazonaws.com
     export APP_PORT=3000
 
 # Cấu hình SESSION_KEY va SESSION_SECRET
