@@ -21,8 +21,8 @@
     export MAIL_PORT=587
 
 # Cấu hình facebook login app
-export FB_APP_ID=221991089978179
-export FB_APP_SECRET=8500546e684bc405cd9381bf3ca6dd93
+export FB_APP_ID=429763721966510
+export FB_APP_SECRET=78c98210a96e6f8d68e8ba01d472b640
 export FB_CALLBACK_URL=ec2-18-237-123-191.us-west-2.compute.amazonaws.com:3000/auth/facebook/callback
 
 
