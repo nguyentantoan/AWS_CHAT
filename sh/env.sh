@@ -23,7 +23,7 @@
 # Cấu hình facebook login app
 export FB_APP_ID=656673628678973
 export FB_APP_SECRET=089ec343a0ab49f46e46781beb2a2fdb
-export FB_CALLBACK_URL=http://ec2-18-237-123-191.us-west-2.compute.amazonaws.com:3000/auth/facebook/callback
+export FB_CALLBACK_URL=https://wechat-cnm.auth.us-west-2.amazoncognito.com/
 
 
 # Cấu hình google login app
