@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
+    "aws-amplify": "^4.3.11",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "bcrypt-nodejs": "0.0.3",
